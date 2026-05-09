@@ -44,7 +44,8 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-Assembly-CSharp.csproj
+*.sln
+*.csproj
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -86,3 +87,10 @@ _UpgradeReport_Files/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Claude
+.claude
+
+# 
+.stfolder
+.stignore
