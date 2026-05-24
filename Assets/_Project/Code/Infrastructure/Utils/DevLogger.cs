@@ -11,7 +11,7 @@ namespace _Project.Code.Infrastructure.Utils
             Debug.LogError(finalMessage, context);
             
             #if UNITY_EDITOR
-            Debug.Assert(false, finalMessage, context);
+            Debug.Break();
             #endif
         }
     }
